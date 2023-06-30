@@ -7,14 +7,7 @@ import Reservation from "../src/components/pages//Reservations"
 function Header() {
     return (
         <header>
-            <img src={logo} alt="logo" id='logo'/>
-            
-                <li><a href={HomePage}></a>Home</li>
-                <li>About</li>
-                <li>Menu</li>
-                <li><a href="../src/components/pages/Reservations">Reservations</a></li>
-                <li>Order Online</li>
-                <li>Login</li>
+           
               
             
         </header>
