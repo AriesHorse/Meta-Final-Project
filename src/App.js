@@ -15,6 +15,8 @@ import "./index.css"
 
 function App() {
   return (
+    <>
+    <Header />
     <BrowserRouter>
    <>
    <Navbar />
@@ -29,10 +31,11 @@ function App() {
     
     </Routes>
     {/* <Main /> */}
-    {/* <Footer /> */}
+     <Footer /> 
     </div>
    </>
    </BrowserRouter>
+   </>
   );
   
 }

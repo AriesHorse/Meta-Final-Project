@@ -5,25 +5,135 @@
 
 #logo{
     width: 100px;
-    display: inline-block
+    /* display: inline-block */
 }
 
-nav{
+
+
+.nav{
+    /* display: flex; */
+    justify-content: space-around;
+}
+
+img{
+    width: 100px;
+}
+
+nav ul{
     display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
     justify-content: space-between;
+    align-items: center;
 }
 
 
-/* ul{
+.nav li{
+    text-decoration: none;
+}
+
+.content{
     display: flex;
-    justify-content: space-between;
-} */
-
-li{
-    list-style-type: none;
+    /* justify-content: space-between; */
+    flex-grow: 2;
 }
 
+.hero-para{
+    border: 1px solid red;
+    max-width: 400px;
+    width: 50%;
+}
+
+.hero-image{
+    border: 3px solid yellow;
+    display: block;
+    width: 30%;
+}
 footer{
     display: flex;
     justify-content: space-between;
+    background-color: rgb(202, 248, 134);
+}
+
+Header{
+    display: flex;
+    background-color: yellow;
+}
+
+.hl-content{
+    display: flex;
+    background-color: blue;
+
+}
+
+section h2,
+section h1{
+    text-align: center;
+}
+
+
+.HL1{
+    background-color: white;
+    border: 5px;
+    border-color: black;
+    margin: 5px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.HL2{
+    background-color: white;
+    border: 5px;
+    border-color: black;
+    margin: 5px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.HL3{
+    background-color: white;
+    border: 5px;
+    border-color: black;
+    margin: 5px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Reviews{
+    display: flex;
+    background-color: green;
+    margin: 0;
+    border: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Review1{
+    background-color: white;
+    border: 5px;
+    border-color: black;
+    margin: 5px;
+    justify-content: space-around;
+    align-items: center;
+}
+.Review2{
+    background-color: white;
+    border: 5px;
+    border-color: black;
+    margin: 5px;
+    justify-content: space-around;
+    align-items: center;
+}
+.Review3{
+    background-color: white;
+    border: 5px;
+    border-color: black;
+    margin: 5px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div:first-child{
+    align-items: center;
 }

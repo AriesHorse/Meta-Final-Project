@@ -1,5 +1,7 @@
+// import logo from "../public/images/LL_Logo.jpg"
 import React, {useState} from 'react';
-import logo from "../src/images/LL_Logo.jpg"
+import logo from "./components/images/LL_Logo.jpg";
+
 import { Link, NavLink } from 'react-router-dom';
 
 function Navbar() {
@@ -10,9 +12,9 @@ function Navbar() {
 
   return (
     <>
-    <nav>
-        <img src={logo} alt="logo" id='logo'/>
+    <nav className='nav'>
             <ul>
+              <li><img src={logo} alt="logo" id='logo'/></li>
             <li><NavLink to="/">Home</NavLink></li>
             <li><NavLink to="/about">About</NavLink></li>
             <li><NavLink to="/menu">Menu</NavLink></li>
